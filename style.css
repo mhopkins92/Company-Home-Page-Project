@@ -1,0 +1,123 @@
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+img {
+    width: 25%;
+    height: auto;
+    display: inline-flex;
+    flex-direction: row;
+    border: 3px solid black;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+button {
+    background-color: brown;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+h1, h2,  h3, p {
+    background-color: white;
+    justify-content: center;
+    margin: 10px;
+}
+.logopic {
+    width: 30%;
+    display: inline-block;
+    float: left;
+}
+.navbar {
+    display: inline-block;
+    background-image: url('stella.jpg');
+}
+.navbarthings {
+    display: inline-block; 
+    align-content: space-between;
+    width: 50%;
+    float: right;
+    
+}
+.navbar li  {
+    display: inline-flex;
+    float: right;
+    align-items: baseline;
+    margin: 10px;
+}
+.banner {
+    display: block;
+    height: 250px;
+    align-items: space-around;
+    margin: 20px;
+    background-image: url('banner.jpg');
+
+}
+.banner h1 {
+    display: inline-block;
+    align-content: center;
+    width: auto;
+}
+.banner h2 {
+    display: block;
+    margin: 75px;
+    text-align: center;
+}
+.adoptabledogs {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: space-between;
+    min-width: 100%;
+    background-color: lightslategray;
+}
+.ourteam {
+    display: flex;
+    align-content: space-between;
+    background-color: grey;
+}
+.rowdy
+ {
+    background-color: pink;
+    min-width: 30%;
+    height: 100%;
+    margin: 20px;
+
+}
+.stella {
+    background-color: pink;
+    min-width: 20%;
+    margin: 20px;
+
+}
+.george {
+    background-color: pink;
+    min-width: 30%;
+    height: 100%;
+    margin: 20px;
+
+
+
+}
+.meg {
+    border: 3px solid black;
+    background-color: blueviolet;
+    min-width: 30%;
+    margin: 20px;
+
+}
+.cordy {
+    border: 3px solid black;
+    background-color: blueviolet;
+    margin: 20px;
+
+}
+.willow {
+    border: 3px solid black;
+    background-color: blueviolet;
+    margin: 20px;
+
+}
